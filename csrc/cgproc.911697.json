@@ -1,0 +1,31 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "Subtractor": {},
+        "std": {},
+        "system": {},
+        "Comparator": {},
+        "Adder": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "archive": "archive.13/_911697_archive_1.a",
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "bytes": 9104,
+            "mode": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 9104,
+            "archive": "archive.13/_911697_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    9104
+                ]
+            ]
+        }
+    ]
+}

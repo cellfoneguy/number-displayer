@@ -1,0 +1,120 @@
+{
+    "MlibObjs": {},
+    "PEModules": [],
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 29004,
+                "archive": "archive.13/_prev_archive_1.a",
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_d.o"
+            }
+        },
+        "Subtractor": {
+            "pqHK3_d": {
+                "bytes": 9510,
+                "archive": "archive.13/_prev_archive_1.a",
+                "mod": "Subtractor",
+                "mode": 4,
+                "out": "pqHK3_d.o"
+            }
+        },
+        "Comparator": {
+            "ZPSNi_d": {
+                "bytes": 9386,
+                "archive": "archive.13/_prev_archive_1.a",
+                "mod": "Comparator",
+                "mode": 4,
+                "out": "ZPSNi_d.o"
+            }
+        },
+        "Adder": {
+            "xUt1z_d": {
+                "bytes": 9465,
+                "archive": "archive.13/_prev_archive_1.a",
+                "mod": "Adder",
+                "mode": 4,
+                "out": "xUt1z_d.o"
+            }
+        },
+        "system": {
+            "gdAaG_d": {
+                "bytes": 18153,
+                "archive": "archive.13/_prev_archive_1.a",
+                "mod": "system",
+                "out": "gdAaG_d.o",
+                "mode": 4
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 9104,
+                "archive": "archive.13/_911697_archive_1.a",
+                "mod": "...MASTER...",
+                "out": "amcQw_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "CurCompileModules": [
+        "...MASTER..."
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "NameTable": {
+        "Subtractor": [
+            "Subtractor",
+            "pqHK3",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "system": [
+            "system",
+            "gdAaG",
+            "module"
+        ],
+        "Comparator": [
+            "Comparator",
+            "ZPSNi",
+            "module"
+        ],
+        "Adder": [
+            "Adder",
+            "xUt1z",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "stat": {
+        "nMops": 21
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 58250
+    },
+    "CompileProcesses": [
+        "cgproc.911697.json"
+    ],
+    "Misc": {
+        "daidir_abs": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2a/simv.daidir",
+        "cwd": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2a",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2a/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.13",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}
