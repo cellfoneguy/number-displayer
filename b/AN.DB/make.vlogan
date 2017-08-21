@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -sverilog -full64
+
+all :		_VCSgd_SQMeye_1.db \
+
+
+
+_VCSgd_SQMeye_1.db :	lab2bpart2.sv 
+		${VLOGAN}  ${VLOGAN_OPT} lab2bpart2.sv
+
+

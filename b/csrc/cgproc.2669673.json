@@ -1,0 +1,57 @@
+{
+    "Modules": {
+        "std": {},
+        "...MASTER...": {},
+        "legalBoardTester": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "decoder": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "archive": "archive.30/_2669673_archive_1.a",
+            "bytes": 7344,
+            "mode": 4
+        },
+        "B5cNq_d": {
+            "mod": "legalBoardTester",
+            "out": "B5cNq_d.o",
+            "archive": "archive.30/_2669673_archive_1.a",
+            "bytes": 25418,
+            "mode": 4
+        },
+        "zf0bY_d": {
+            "mod": "decoder",
+            "out": "zf0bY_d.o",
+            "archive": "archive.30/_2669673_archive_1.a",
+            "bytes": 8819,
+            "mode": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.30/_2669673_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7344
+                ],
+                [
+                    "B5cNq_d.o",
+                    25418
+                ],
+                [
+                    "zf0bY_d.o",
+                    8819
+                ]
+            ],
+            "size": 41581
+        }
+    ]
+}

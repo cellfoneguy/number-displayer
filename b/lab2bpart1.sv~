@@ -1,0 +1,38 @@
+`default_nettype none
+
+module Comparator
+  (input  logic [3:0] A, B, 
+   output logic AeqB);
+   assign AeqB = (A == B);
+endmodule: Comparator
+
+module SumComparator
+  (input  logic [4:0] A, B, 
+   output logic AeqB);
+   assign AeqB = (A == B);
+endmodule: SumComparator
+
+module allAdder
+  (input  logic [4:0] num1, num2, num3, //top row, L to R 
+   input logic [4:0] num4, num5, num6, //middle row 
+   input logic [4:0] num7, num8, num9, //bottom row
+   output logic [4:0] sum1, sum2, sum3, //rows
+   output logic [4:0] sum4, sum5, sum6, //cols
+   output logic [4:0] num7, sum8); //diagonals
+   assign sum1 = num1 + num2 + num3;
+   assign sum2 = num4 + num5 + num6;
+   assign sum3 = num7 + num8 + num9;
+   assign sum4 = num1 + num4 + num7;
+   assign sum5 = num2 + num5 + num8;
+   assign sum6 = num3 + num6 + num9;
+   assign sum7 = num1 + num5 + num9;
+   assign sum8 = num3 + num5 + num7;
+endmodule: Adder
+/*
+module isMagicShell
+  (input  logic [3:0] num1, num2, num3, //top row, L to R 
+   input  logic [3:0] num4, num5, num6, //middle row 
+   input  logic [3:0] num7, num8, num9, //bottom row 
+   output logic [3:0] sum1, sum2,  //sum1 is most significant 
+   output logic       it_is_magic);
+*/

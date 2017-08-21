@@ -1,0 +1,79 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 29004,
+                "archive": "archive.29/_prev_archive_1.a",
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_d.o"
+            }
+        },
+        "testallCompare": {
+            "xFZVQ_d": {
+                "bytes": 12317,
+                "archive": "archive.29/_2668205_archive_1.a",
+                "mod": "testallCompare",
+                "mode": 4,
+                "out": "xFZVQ_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7336,
+                "archive": "archive.29/_2668205_archive_1.a",
+                "mod": "...MASTER...",
+                "out": "amcQw_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "testallCompare": [
+            "testallCompare",
+            "xFZVQ",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "Misc": {
+        "cwd": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2b",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2b/simv.daidir",
+        "daidir": "simv.daidir",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/albai/Private/class/18240/lab2b/csrc",
+        "archive_dir": "archive.29"
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 60083
+    },
+    "stat": {
+        "nMops": 617
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "testallCompare"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.2668205.json"
+    ],
+    "CompileStatus": "Successful"
+}
